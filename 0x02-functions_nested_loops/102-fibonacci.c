@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
  * main - print the first 50 fibonnaci number
- * Return - Nothing
+ * Return: 0
  */
-
 int main(void)
 {
 	unsigned long count, i, j, k;
