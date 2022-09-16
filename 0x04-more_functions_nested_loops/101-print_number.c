@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int _putchar(char c);
+
 /**
  * print_number - function that prints an integer
  * @n: params an integer
@@ -11,7 +13,6 @@
 void print_number(int n)
 {
 
-	int _putchar(char c);
 	unsigned int n1 = 0;
 
 	if (n < 0)
@@ -22,7 +23,7 @@ void print_number(int n)
 
 	else
 	{
-		n1 = -n;
+		n1 = n;
 	}
 
 	if (n1 / 10)
